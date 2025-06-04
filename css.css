@@ -1,41 +1,25 @@
 body {
     font-family:'Times New Roman', Times, serif;
+    padding: 0;
+    margin: 0;
 }
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+div.container {
+    display: grid;
 }
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
-}
-.flex-container {
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-}
-section.hero-section {
+.hero-section {
     background-image: url(fashion.jpg);
     height: 30em;    
     background-size: cover;
     background-repeat: no-repeat;
     width: 100%;
 }
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+
 div.hero-texts {
     justify-items: center;
     font-size: xx-large;
